@@ -4,7 +4,7 @@ const {writeToFile} = require('./writeToFile');
 
 const CACHE_FILE_PATH = resolve(__dirname, '../.cache/packages.json');
 
-/* This generates a list of all paste packages in the monorepo and saves the information
+/* This generates a list of all browk-ui packages in the monorepo and saves the information
  * into ../.cache/packages.json.  This file is a cache for other commands to not
  * repeatedly run this.
  */

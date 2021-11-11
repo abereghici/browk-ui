@@ -102,3 +102,34 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Apple gunk
+.DS_Store
+
+.jest-coverage
+.jest-cache
+.jest-cache-react-16
+**/lib/*
+**/dist/*
+packages/**/docs
+*.tsbuildinfo
+package-lock.json
+tools/.cache/packages.json
+tools/.cache/token-usage.json
+docs
+
+# Cypress
+cypress/videos
+cypress/screenshots
+
+# Local Netlify folder
+.netlify
+
+# Yarn Folders
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

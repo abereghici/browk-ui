@@ -1,0 +1,12 @@
+{
+  "packages": ["packages/**"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": ["**/stories/**", "**/__tests__/**", "**/*.md"],
+      "npmClient": "npm"
+    }
+  }
+}

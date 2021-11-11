@@ -1,18 +1,21 @@
 {
-  "name": "browk-ui",
+  "name": "browk",
   "private": true,
-  "version": "2021.11.11",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "Alexandru Bereghici",
   "license": "MIT",
   "workspaces": {
-    "packages": []
+    "packages": [
+      "packages/browk-ui-libraries/**"
+    ]
   },
   "scripts": {
     "bootstrap": "",
     "prestart": "yarn prebuild",
-    "start:": "",
+    "start:": "yarn prestart",
     "prebuild": "node ./tools/build/pre-build.js && yarn packages:check",
+    "build": "yarn prebuild && lerna run build",
     "pre-push": "concurrently \"yarn:lint\" \"yarn:test\" \"yarn:prettier\" \"yarn:type-check\"",
     "prerelease": "yarn build && yarn lint && yarn test",
     "release": "yarn changeset publish",
@@ -95,6 +98,9 @@
     "typedoc": "^0.22.8",
     "typescript": "^4.4.4"
   },
+  "resolutions": {
+    "@emotion/core": "10.0.28"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "precise-commits",
@@ -102,5 +108,5 @@
       "pre-push": "if git-branch-is main; then yarn pre-push; fi"
     }
   },
-  "packageManager": "yarn@3.0.2"
+  "packageManager": "yarn@3.1.0"
 }

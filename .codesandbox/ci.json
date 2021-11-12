@@ -1,0 +1,10 @@
+{
+  "buildCommand": "build",
+  "node": "12",
+  "packages": [
+    "/packages/browk-ui-libraries/styling"
+  ],
+  "sandboxes": [
+    "/packages/browk-ui-nextjs-template"
+  ]
+}

@@ -1,11 +1,8 @@
-import type {AppProps, NextWebVitalsMetric} from 'next/app';
+import '../styles/globals.css'
+import type { AppProps } from 'next/app'
 
-export const MyApp: React.FC<AppProps> = ({Component, pageProps}) => {
-  return <Component {...pageProps} />;
-};
-
-export function reportWebVitals(metric: NextWebVitalsMetric): void {
-  console.log(metric);
+function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />
 }
 
-export default MyApp;
+export default MyApp

@@ -12,7 +12,6 @@ const BrowkUICJSResolverPlugin = {
     build.onResolve({filter: /@browk-ui\/icons\/esm\//}, ({path}) => {
       return {path: path.replace('/esm/', '/cjs/'), external: true};
     });
-
     // Change all .es6 design-token imports to .common
     build.onResolve({filter: /\/tokens.es6$/}, ({path}) => {
       return {path: path.replace('.es6', '.common'), external: true};

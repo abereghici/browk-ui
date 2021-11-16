@@ -1,0 +1,26 @@
+global:
+  type: color
+  category: background-color
+imports:
+  - ../aliases/color-palette.yml
+props:
+  # base background
+  color-background:
+    value: "{!white}"
+    comment: Default background color for any container
+  color-background-strong:
+    value: "{!palette-gray-10}"
+    comment: Strong default background color
+
+    # brand backgrounds
+  color-background-brand:
+    value: "{!palette-purple-20}"
+    comment: Primary brand background, accessible with inverse text
+  color-background-brand-strong:
+    value: "{!palette-gray-70}"
+    comment: Strong primary brand background, accessible with inverse text
+
+  # overlay backgrounds
+  color-background-overlay:
+    value: "{!palette-black-transparent-50}"
+    comment: Default background for overlays

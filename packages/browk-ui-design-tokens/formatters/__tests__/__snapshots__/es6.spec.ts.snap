@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`es6Formatter should return es6 formatted tokens 1`] = `
+"export const colorBackground = \\"rgb(255, 255, 255)\\";
+export const colorBackgroundBrand = \\"rgb(110, 65, 226)\\";
+export const colorBackgroundBrandStrong = \\"rgb(17, 17, 17)\\";
+export const colorBackgroundOverlay = \\"rgba(0, 0, 0, 0.5)\\";
+export const colorBackgroundStrong = \\"rgb(250, 250, 250)\\";
+export const colorBrand = \\"rgb(110, 65, 226)\\";
+export const colorBrandHighlight = \\"rgb(255, 217, 18)\\";
+export const colorGray0 = \\"rgb(255, 255, 255)\\";
+export const colorGray10 = \\"rgb(250, 250, 250)\\";
+export const colorGray20 = \\"rgb(241, 241, 241)\\";
+export const colorGray30 = \\"rgb(212, 212, 212)\\";
+export const colorGray40 = \\"rgba(17, 17, 17, 0.48)\\";
+export const colorGray50 = \\"rgb(107, 107, 107)\\";
+export const colorGray60 = \\"rgb(51, 51, 51)\\";
+export const colorGray70 = \\"rgb(17, 17, 17)\\";
+export const colorText = \\"rgb(0, 0, 0)\\";
+export const colorTextIcon = \\"rgb(51, 51, 51)\\";
+export const colorTextInverse = \\"rgb(255, 255, 255)\\";
+export const colorTextLink = \\"rgb(242, 202, 202)\\";
+export const fontSize10 = \\"0.813rem\\";
+export const fontSize20 = \\"1rem\\";
+export const fontSize30 = \\"1.25rem\\";
+export const fontSize40 = \\"1.5rem\\";
+export const fontSize50 = \\"2rem\\";
+export const fontSize60 = \\"2.5rem\\";
+export const fontSize70 = \\"3rem\\";
+export const fontSize80 = \\"3.5rem\\";
+export const space0 = \\"0\\";
+export const space10 = \\"0.125rem\\";
+export const space100 = \\"2.25rem\\";
+export const space110 = \\"2.5rem\\";
+export const space120 = \\"2.75rem\\";
+export const space130 = \\"3rem\\";
+export const space140 = \\"3.25rem\\";
+export const space150 = \\"3.5rem\\";
+export const space160 = \\"3.75rem\\";
+export const space170 = \\"4rem\\";
+export const space180 = \\"4.25rem\\";
+export const space190 = \\"4.5rem\\";
+export const space20 = \\"0.25rem\\";
+export const space200 = \\"4.75rem\\";
+export const space30 = \\"0.5rem\\";
+export const space40 = \\"0.75rem\\";
+export const space50 = \\"1rem\\";
+export const space60 = \\"1.25rem\\";
+export const space70 = \\"1.5rem\\";
+export const space80 = \\"1.75rem\\";
+export const space90 = \\"2rem\\";
+export const spaceNegative10 = \\"-0.125rem\\";
+export const spaceNegative100 = \\"-2.25rem\\";
+export const spaceNegative110 = \\"-2.5rem\\";
+export const spaceNegative120 = \\"-2.75rem\\";
+export const spaceNegative130 = \\"-3rem\\";
+export const spaceNegative140 = \\"-3.25rem\\";
+export const spaceNegative150 = \\"-3.5rem\\";
+export const spaceNegative160 = \\"-3.75rem\\";
+export const spaceNegative170 = \\"-4rem\\";
+export const spaceNegative180 = \\"-4.25rem\\";
+export const spaceNegative190 = \\"-4.5rem\\";
+export const spaceNegative20 = \\"-0.25rem\\";
+export const spaceNegative200 = \\"-4.75rem\\";
+export const spaceNegative30 = \\"-0.5rem\\";
+export const spaceNegative40 = \\"-0.75rem\\";
+export const spaceNegative50 = \\"-1rem\\";
+export const spaceNegative60 = \\"-1.25rem\\";
+export const spaceNegative70 = \\"-1.5rem\\";
+export const spaceNegative80 = \\"-1.75rem\\";
+export const spaceNegative90 = \\"-2rem\\";
+export const zIndex0 = \\"0\\";
+export const zIndex10 = \\"10\\";
+export const zIndex20 = \\"20\\";
+export const zIndex30 = \\"30\\";
+export const zIndex40 = \\"40\\";
+export const zIndex50 = \\"50\\";
+export const zIndex60 = \\"60\\";
+export const zIndex70 = \\"70\\";
+export const zIndex80 = \\"80\\";
+export const zIndex90 = \\"90\\";
+export const backgroundColors = {
+colorBackground,
+colorBackgroundBrand,
+colorBackgroundBrandStrong,
+colorBackgroundOverlay,
+colorBackgroundStrong,
+};
+export const colors = {
+colorBrand,
+colorBrandHighlight,
+colorGray0,
+colorGray10,
+colorGray20,
+colorGray30,
+colorGray40,
+colorGray50,
+colorGray60,
+colorGray70,
+};
+export const fontSizes = {
+fontSize10,
+fontSize20,
+fontSize30,
+fontSize40,
+fontSize50,
+fontSize60,
+fontSize70,
+fontSize80,
+};
+export const spacings = {
+space0,
+space10,
+space100,
+space110,
+space120,
+space130,
+space140,
+space150,
+space160,
+space170,
+space180,
+space190,
+space20,
+space200,
+space30,
+space40,
+space50,
+space60,
+space70,
+space80,
+space90,
+spaceNegative10,
+spaceNegative100,
+spaceNegative110,
+spaceNegative120,
+spaceNegative130,
+spaceNegative140,
+spaceNegative150,
+spaceNegative160,
+spaceNegative170,
+spaceNegative180,
+spaceNegative190,
+spaceNegative20,
+spaceNegative200,
+spaceNegative30,
+spaceNegative40,
+spaceNegative50,
+spaceNegative60,
+spaceNegative70,
+spaceNegative80,
+spaceNegative90,
+};
+export const textColors = {
+colorText,
+colorTextIcon,
+colorTextInverse,
+colorTextLink,
+};
+export const zIndices = {
+zIndex0,
+zIndex10,
+zIndex20,
+zIndex30,
+zIndex40,
+zIndex50,
+zIndex60,
+zIndex70,
+zIndex80,
+zIndex90,
+};"
+`;

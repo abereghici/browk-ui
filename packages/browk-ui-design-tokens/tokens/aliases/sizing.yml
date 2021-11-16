@@ -1,0 +1,15 @@
+aliases:
+  size-0: "0" #0
+  size-10: "5.5rem" #88px
+  size-20: "12rem" #192px
+  size-30: "18.5rem" #296px
+  size-40: "25rem" #400px
+  size-50: "31.5rem" #504px
+  size-60: "38rem" #608px
+  size-70: "44.5rem" #712px
+  size-80: "51rem" #816px
+  size-90: "57.5rem" #920px
+  size-100: "64rem" #1024px
+  size-110: "70.5rem" #1128px
+  size-120: "74rem" #1184px
+  size-130: "77rem" #1264px

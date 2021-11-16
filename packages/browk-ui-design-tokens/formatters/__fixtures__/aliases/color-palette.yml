@@ -1,0 +1,59 @@
+aliases:
+  ## Black
+  black: "#000000"
+
+  ## Black transparent
+  palette-black-transparent-50: "rgba(0, 0, 0, 0.5)"
+
+  ## White
+  white: "#FFFFFF"
+
+  ## White transparent
+  palette-white-transparent-88: "rgba(255, 255, 255, 0.88)"
+
+  ## Purple
+  palette-purple-10: "#E3DAF9"
+  palette-purple-20: "#6E41E2"
+  palette-purple-30: "#5835B0"
+  palette-purple-40: "#472C8A"
+
+  ## Grays
+  palette-gray-0: "#FFFFFF"
+  palette-gray-10: "#FAFAFA"
+  palette-gray-20: "#F1F1F1"
+  palette-gray-30: "#D4D4D4"
+  palette-gray-40: "rgba(17, 17, 17, 0.48)"
+  palette-gray-50: "#6B6B6B"
+  palette-gray-60: "#333333"
+  palette-gray-70: "#111111"
+
+  ## Grays transparent
+  palette-gray-60-transparent-04: "rgba(51,51,51, 0.04)"
+  palette-gray-60-transparent-08: "rgba(51,51,51, 0.08)"
+  palette-gray-60-transparent-16: "rgba(51,51,51, 0.16)"
+  palette-gray-60-transparent-24: "rgba(51,51,51, 0.24)"
+
+  ## Reds
+  palette-red-10: "#F9E3E3"
+  palette-red-20: "#F2CACA"
+  palette-red-30: "FFC3C3"
+  palette-red-40: "#DB524E"
+  palette-red-50: "#C7302B"
+
+  ## Reds transparent
+  palette-red-30-transparent-04: "rgba(255, 196, 196, 0.04)"
+  palette-red-30-transparent-24: "rgba(255, 196, 196, 0.24)"
+
+  ## Green
+  palette-green: "#27AE60"
+
+  ## Green transparent
+  palette-green-transparent-04: "rgba(39, 174, 96, 0.04)"
+  palette-green-transparent-12: "rgba(39, 174, 96, 0.12)"
+  palette-green-transparent-24: "rgba(39, 174, 96, 0.24)"
+
+  ## Yellows
+  palette-yellow: "#FFD912"
+
+  ## Yellows transparent
+  palette-yellow-transparent-12: "rgba(rgb(255, 217, 18, 0.12)"

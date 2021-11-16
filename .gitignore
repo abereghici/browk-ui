@@ -114,6 +114,7 @@ dist
 packages/**/docs
 *.tsbuildinfo
 package-lock.json
+!tools/.cache
 tools/.cache/packages.json
 tools/.cache/token-usage.json
 docs

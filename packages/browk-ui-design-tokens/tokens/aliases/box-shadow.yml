@@ -1,0 +1,9 @@
+imports:
+  - ./color-palette.yml
+  - ./offset.yml
+  - ./spacing.yml
+aliases:
+  shadow-elevation-0: "none"
+  shadow-elevation-10: "{!offset-0} {!offset-20} {!offset-20} {!palette-gray-60-transparent-04}, {!offset-0} {!offset-20} {!offset-60} {!palette-gray-60-transparent-08}"
+  shadow-elevation-20: "{!offset-0} {!offset-20} {!offset-20} {!palette-gray-60-transparent-04}, {!offset-0} {!offset-20} {!offset-150} {!palette-gray-60-transparent-16}"
+  shadow-elevation-30: "{!offset-0} {!offset-20} {!offset-20} {!palette-gray-60-transparent-04}, {!offset-0} {!offset-20} {!offset-80} {!palette-gray-60-transparent-24}"

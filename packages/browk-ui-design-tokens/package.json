@@ -1,0 +1,23 @@
+{
+  "name": "@browk-ui/design-tokens",
+  "version": "0.0.1",
+  "description": "Browk UI Design System Tokens package.",
+  "main": "dist/tokens.common.js",
+  "module": "dist/tokens.es6.js",
+  "types": "dist/tokens.common.d.ts",
+  "author": "Alexandru Bereghici",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "yarn clean && NODE_ENV=production gulp",
+    "build:js": "NODE_ENV=development gulp",
+    "build:watch": "gulp dev",
+    "clean": "rm -rf ./dist",
+    "tokens": "gulp default",
+    "test": "jest"
+  }
+}

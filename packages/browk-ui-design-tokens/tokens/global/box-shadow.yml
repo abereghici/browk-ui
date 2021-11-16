@@ -1,0 +1,22 @@
+global:
+  type: shadow
+  category: box-shadow
+imports:
+  - ../aliases/box-shadow.yml
+  - ../aliases/offset.yml
+props:
+  shadow:
+    value: "{!shadow-elevation-10}"
+    comment: Default shadow.
+  shadow-active:
+    value: "{!shadow-elevation-20}"
+    comment: Shadow for active state on interactive elements.
+  shadow-hover:
+    value: "{!shadow-elevation-30}"
+    comment: Shadow for hover state on interactive elements.
+  shadow-success:
+    value: "{!offset-0} {!offset-20} {!offset-20} {!palette-green-transparent-04}, {!offset-0} {!offset-20} {!offset-80} {!palette-green-transparent-24}"
+    comment: Shadow for hover state on interactive elements.
+  shadow-error:
+    value: "{!offset-0} {!offset-20} {!offset-20} {!palette-red-30-transparent-04}, {!offset-0} {!offset-20} {!offset-80} {!palette-red-30-transparent-24}"
+    comment: Shadow for hover state on interactive elements.

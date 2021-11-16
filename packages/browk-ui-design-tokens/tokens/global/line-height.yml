@@ -1,0 +1,33 @@
+global:
+  category: line-height
+  type: number
+imports:
+  - ../aliases/line-height.yml
+props:
+  line-height-0:
+    value: "{!line-height-0}"
+    comment: "Constant line-height token for line-height 0"
+  line-height-10:
+    value: "{!line-height-10}"
+    comment: "Constant line-height token for line-height 10"
+  line-height-20:
+    value: "{!line-height-20}"
+    comment: "Constant line-height token for line-height 20"
+  line-height-30:
+    value: "{!line-height-30}"
+    comment: "Constant line-height token for line-height 30"
+  line-height-40:
+    value: "{!line-height-40}"
+    comment: "Constant line-height token for line-height 40"
+  line-height-50:
+    value: "{!line-height-50}"
+    comment: "Constant line-height token for line-height 50"
+  line-height-60:
+    value: "{!line-height-60}"
+    comment: "Constant line-height token for line-height 60"
+  line-height-70:
+    value: "{!line-height-70}"
+    comment: "Constant line-height token for line-height 70"
+  line-height-80:
+    value: "{!line-height-80}"
+    comment: "Constant line-height token for line-height 80"

@@ -1,0 +1,17 @@
+aliases:
+  offset-0: "0" # Needs to be quoted or will be interpreted as 'false'
+  offset-10: "2px"
+  offset-20: "4px"
+  offset-30: "6px"
+  offset-40: "8px"
+  offset-50: "12px"
+  offset-60: "16px"
+  offset-70: "20px"
+  offset-80: "24px"
+  offset-90: "32px"
+  offset-100: "36px"
+  offset-110: "40px"
+  offset-120: "44px"
+  offset-130: "48px"
+  offset-140: "52px"
+  offset-150: "56px"

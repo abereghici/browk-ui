@@ -36,7 +36,7 @@ module.exports = {
     '^.+\\.js?$': '<rootDir>/.jest/transform-esm.js',
   },
   setupFilesAfterEnv: ['<rootDir>/.jest/setupFilesAfterEnv.js'],
-  snapshotSerializers: ['@emotion/jest'],
+  snapshotSerializers: ['@emotion/jest/serializer'],
 };
 
 if (process.env.USE_REACT_16 === 'true') {

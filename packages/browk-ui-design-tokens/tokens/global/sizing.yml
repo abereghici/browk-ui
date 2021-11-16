@@ -1,0 +1,75 @@
+global:
+  type: size
+  category: sizing
+imports:
+  - ../aliases/sizing.yml
+  - ../aliases/line-height.yml
+props:
+  size-0:
+    value: "{!size-0}"
+    comment: Generic sizing token scale for UI components.
+  size-10:
+    value: "{!size-10}"
+    comment: Generic sizing token scale for UI components.
+  size-20:
+    value: "{!size-20}"
+    comment: Generic sizing token scale for UI components.
+  size-30:
+    value: "{!size-30}"
+    comment: Generic sizing token scale for UI components.
+  size-40:
+    value: "{!size-40}"
+    comment: Generic sizing token scale for UI components.
+  size-50:
+    value: "{!size-50}"
+    comment: Generic sizing token scale for UI components.
+  size-60:
+    value: "{!size-60}"
+    comment: Generic sizing token scale for UI components.
+  size-70:
+    value: "{!size-70}"
+    comment: Generic sizing token scale for UI components.
+  size-80:
+    value: "{!size-80}"
+    comment: Generic sizing token scale for UI components.
+  size-90:
+    value: "{!size-90}"
+    comment: Generic sizing token scale for UI components.
+  size-100:
+    value: "{!size-100}"
+    comment: Generic sizing token scale for UI components.
+  size-110:
+    value: "{!size-110}"
+    comment: Generic sizing token scale for UI components.
+  size-120:
+    value: "{!size-120}"
+    comment: Generic sizing token scale for UI components.
+  size-130:
+    value: "{!size-120}"
+    comment: Generic sizing token scale for UI components.
+
+  # icons
+  size-icon-10:
+    value: "{!line-height-10}"
+    comment: "Maps to line-height tokens 1:1"
+  size-icon-20:
+    value: "{!line-height-20}"
+    comment: "Maps to line-height tokens 1:1"
+  size-icon-30:
+    value: "{!line-height-30}"
+    comment: "Maps to line-height tokens 1:1"
+  size-icon-40:
+    value: "{!line-height-40}"
+    comment: "Maps to line-height tokens 1:1"
+  size-icon-50:
+    value: "{!line-height-50}"
+    comment: "Maps to line-height tokens 1:1"
+  size-icon-60:
+    value: "{!line-height-60}"
+    comment: "Maps to line-height tokens 1:1"
+  size-icon-70:
+    value: "{!line-height-70}"
+    comment: "Maps to line-height tokens 1:1"
+  size-icon-80:
+    value: "{!line-height-80}"
+    comment: "Maps to line-height tokens 1:1"

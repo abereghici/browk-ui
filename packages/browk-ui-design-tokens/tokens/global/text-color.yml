@@ -1,0 +1,42 @@
+global:
+  type: color
+  category: text-color
+imports:
+  - ../aliases/color-palette.yml
+props:
+  # body text
+  color-text:
+    value: "{!black}"
+    comment: Body text color
+    text_contrast_pairing:
+      - color-background
+      - color-background-strong
+
+  color-text-inverse:
+    value: "{!palette-gray-0}"
+    comment: Inverse text color for dark backgrounds. Must pass AA color contrast with color-background-body-inverse.
+    text_contrast_pairing:
+      - color-background-brand
+      - color-background-brand-strong
+
+  # links
+  color-text-link:
+    value: "{!palette-red-20}"
+    comment: Link text
+    text_contrast_pairing:
+      - color-background
+      - color-background-strong
+    uicontrol_contrast_pairing:
+      - color-background
+      - color-background-strong
+
+  #icon
+  color-text-icon:
+    value: "{!palette-gray-60}"
+    comment: Default icon color.
+    text_contrast_pairing:
+      - color-background
+      - color-background-strong
+    uicontrol_contrast_pairing:
+      - color-background
+      - color-background-strong

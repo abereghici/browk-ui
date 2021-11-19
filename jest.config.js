@@ -37,6 +37,9 @@ module.exports = {
   },
   setupFilesAfterEnv: ['<rootDir>/.jest/setupFilesAfterEnv.js'],
   snapshotSerializers: ['@emotion/jest/serializer'],
+  moduleNameMapper: {
+    '@emotion/core': '@emotion/react',
+  },
 };
 
 if (process.env.USE_REACT_16 === 'true') {

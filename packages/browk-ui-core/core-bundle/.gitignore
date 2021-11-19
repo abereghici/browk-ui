@@ -1,0 +1,7 @@
+# Automatically generated from "yarn generate-packages"
+/dist
+/animation-library
+/design-tokens
+/styling-library
+/theme
+/types

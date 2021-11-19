@@ -30,7 +30,7 @@ export type GenericSpacings = Partial<{[key in keyof typeof spacings]: any}>;
 export type GenericTextColors = Partial<{[key in keyof typeof textColors]: any}>;
 export type GenericZIndices = Partial<{[key in keyof typeof zIndices]: any}>;
 
-/** Flat list of all Paste Design Tokens with generic values */
+/** Flat list of all BrowkUI Design Tokens with generic values */
 export type AllGenericTokens = GenericBackgroundColors &
   GenericBorderColors &
   GenericBorderWidths &

@@ -1,9 +1,9 @@
 {
-  "name": "@browk-ui/styling-library",
+  "name": "@browk-ui/animation-library",
   "version": "0.0.1",
-  "category": "library",
+  "category": "interaction",
   "status": "production",
-  "description": "Custom CSS-in-JS wrapper library for use in Browk UI.",
+  "description": "BrowkUI's animation library of choice.",
   "author": "Alexandru Bereghici",
   "license": "MIT",
   "main:dev": "src/index.tsx",
@@ -25,13 +25,8 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@emotion/react": "11.6.0",
-    "@emotion/styled": "11.6.0",
-    "@styled-system/css": "5.1.5",
-    "@styled-system/theme-get": "5.1.2",
-    "@types/styled-system": "^5.1.9",
-    "@types/styled-system__css": "^5.0.5",
-    "styled-system": "5.1.5"
+    "@react-spring/shared": "9.3.0",
+    "@react-spring/web": "9.3.0"
   },
   "peerDependencies": {
     "react": "^16.8.6 || ^17.0.2",

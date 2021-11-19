@@ -1,0 +1,43 @@
+{
+  "name": "@browk-ui/core",
+  "version": "0.0.1",
+  "status": "production",
+  "description": "Core contains all the packages from the BrowkUI design system.",
+  "author": "Alexandru Bereghici",
+  "license": "MIT",
+  "main:dev": "src/index.tsx",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "yarn clean && yarn generate-packages && yarn compile && yarn build:types",
+    "build:dev": "yarn clean && yarn generate-packages && yarn compile:dev && yarn build:types",
+    "build:js": "yarn clean && yarn generate-packages && yarn compile",
+    "build:types": "./tools/build-types.sh",
+    "generate-packages": "node ./tools/generate.js",
+    "clean": "yarn clean:packages && rm -rf ./dist && rm -rf tsconfig.tsbuildinfo && rm -rf .rpt2_cache",
+    "clean:packages": "./tools/clean-packages.sh",
+    "compile": "babel ./src/*.tsx --out-dir ./dist --extensions '.tsx' && node ./tools/minify",
+    "compile:dev": "babel ./src/*.tsx --out-dir ./dist --extensions '.tsx'"
+  },
+  "dependencies": {
+    "@browk-ui/animation-library": "^0.0.1",
+    "@browk-ui/design-tokens": "^0.0.1",
+    "@browk-ui/styling-library": "^0.0.1",
+    "@browk-ui/theme": "^0.0.1",
+    "@browk-ui/types": "^0.0.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6 || ^17.0.2",
+    "react-dom": "^16.8.6 || ^17.0.2"
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

@@ -1,5 +1,5 @@
 /**
- * Shape of a Paste Design Token
+ * Shape of a BrowkUI Design Token
  */
 export interface DesignToken {
   /** category of design token */
@@ -16,7 +16,7 @@ export interface DesignToken {
   value: string;
 }
 /**
- * Shape of  the Paste Design Token JSON Object
+ * Shape of  the BrowkUI Design Token JSON Object
  */
 export interface DesignTokensJSON {
   [key: string]: DesignToken;

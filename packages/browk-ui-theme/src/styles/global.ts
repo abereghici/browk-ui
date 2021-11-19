@@ -5,7 +5,7 @@ export const browkGlobalStyles = css({
     fontSize: '100%',
   },
   body: {
-    backgroundColor: 'colorBackgroundBody',
+    backgroundColor: 'colorBackground',
     margin: 0,
     fontSize: 'fontSize30',
   },

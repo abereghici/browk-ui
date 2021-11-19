@@ -1790,10 +1790,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@browk-ui/core@workspace:packages/browk-ui-core/core-bundle":
+"@browk-ui/core@^0.0.1, @browk-ui/core@workspace:packages/browk-ui-core/core-bundle":
   version: 0.0.0-use.local
   resolution: "@browk-ui/core@workspace:packages/browk-ui-core/core-bundle"
   dependencies:
+    "@browk-ui/animation-library": ^0.0.1
     "@browk-ui/design-tokens": ^0.0.1
     "@browk-ui/styling-library": ^0.0.1
     "@browk-ui/theme": ^0.0.1
@@ -1818,6 +1819,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@browk-ui/nextjs-template@workspace:packages/browk-ui-nextjs-template"
   dependencies:
+    "@browk-ui/core": ^0.0.1
     "@types/node": 16.11.7
     "@types/react": 17.0.34
     eslint: 7.32.0

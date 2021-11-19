@@ -1,4 +1,4 @@
-import {
+import type {
   backgroundColors,
   borderColors,
   borderWidths,

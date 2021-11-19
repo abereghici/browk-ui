@@ -1,0 +1,41 @@
+{
+  "name": "@browk-ui/style-props",
+  "version": "0.0.1",
+  "description": "Shared utilities for style properties used in BrowkUI",
+  "author": "Alexandru Bereghici",
+  "license": "MIT",
+  "main:dev": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn clean && NODE_ENV=production node build.js && tsc",
+    "build:js": "NODE_ENV=development node build.js",
+    "build:props": "typedoc --tsconfig ./tsconfig.json --json ./dist/prop-types.json",
+    "clean": "rm -rf ./dist",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "csstype": "^2.6.10",
+    "lodash.camelcase": "^4.3.0"
+  },
+  "peerDependencies": {
+    "@browk-ui/design-tokens": "^0.0.1",
+    "@browk-ui/styling-library": "^0.0.1",
+    "@browk-ui/theme": "^0.0.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@browk-ui/design-tokens": "^0.0.1",
+    "@browk-ui/styling-library": "^0.0.1",
+    "@browk-ui/theme": "^0.0.1",
+    "prop-types": "^15.7.2"
+  }
+}

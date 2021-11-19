@@ -11,7 +11,7 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'eslint-comments', 'jest', 'promise', 'unicorn', 'emotion', 'import'],
+  plugins: ['@typescript-eslint', 'eslint-comments', 'jest', 'promise', 'unicorn', '@emotion', 'import', 'jsx-a11y'],
   extends: [
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
@@ -20,7 +20,8 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
-    'plugin:prettier/recommended',
+    'plugin:react/recommended',
+    'prettier',
   ],
   rules: {
     // Too restrictive, writing ugly code to defend against a very unlikely scenario: https://eslint.org/docs/rules/no-prototype-builtins

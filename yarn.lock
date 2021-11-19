@@ -1796,6 +1796,7 @@ __metadata:
   dependencies:
     "@browk-ui/animation-library": ^0.0.1
     "@browk-ui/design-tokens": ^0.0.1
+    "@browk-ui/style-props": ^0.0.1
     "@browk-ui/styling-library": ^0.0.1
     "@browk-ui/theme": ^0.0.1
     "@browk-ui/types": ^0.0.1
@@ -1828,6 +1829,24 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     typescript: ^4.4.4
+  languageName: unknown
+  linkType: soft
+
+"@browk-ui/style-props@^0.0.1, @browk-ui/style-props@workspace:packages/browk-ui-style-props":
+  version: 0.0.0-use.local
+  resolution: "@browk-ui/style-props@workspace:packages/browk-ui-style-props"
+  dependencies:
+    "@browk-ui/design-tokens": ^0.0.1
+    "@browk-ui/styling-library": ^0.0.1
+    "@browk-ui/theme": ^0.0.1
+    csstype: ^2.6.10
+    lodash.camelcase: ^4.3.0
+    prop-types: ^15.7.2
+  peerDependencies:
+    "@browk-ui/design-tokens": ^0.0.1
+    "@browk-ui/styling-library": ^0.0.1
+    "@browk-ui/theme": ^0.0.1
+    prop-types: ^15.7.2
   languageName: unknown
   linkType: soft
 
@@ -2367,6 +2386,15 @@ __metadata:
     "@emotion/memoize": ^0.7.4
     stylis: ^4.0.3
   checksum: a3de555a49e26b7b226625cfb80e766cc19bd862b736d0c481021a77dc84d6588c97c949d3bcab605d7e5fd1f254ab9386fc368abc2aec74d37e6447d905354c
+  languageName: node
+  linkType: hard
+
+"@emotion/eslint-plugin@npm:^11.5.0":
+  version: 11.5.0
+  resolution: "@emotion/eslint-plugin@npm:11.5.0"
+  peerDependencies:
+    eslint: 6 || 7
+  checksum: e3a9aa65cd0d2b2def841a64bc9a1c7e99e766395885c48b15dff3efbac051c2adb797de1e4444f014b6722610241e616d91deeb4f219c6352dbf72059d694d5
   languageName: node
   linkType: hard
 
@@ -6614,6 +6642,7 @@ __metadata:
     "@commitlint/cli": ^14.1.0
     "@commitlint/config-conventional": ^14.1.0
     "@emotion/babel-preset-css-prop": ^10.0.14
+    "@emotion/eslint-plugin": ^11.5.0
     "@emotion/jest": ^11.5.0
     "@expo/spawn-async": ^1.5.0
     "@manypkg/cli": ^0.19.1
@@ -8207,6 +8236,13 @@ __metadata:
   version: 2.6.18
   resolution: "csstype@npm:2.6.18"
   checksum: 1d6d67bc7f55af976d7a9cb153d61867d6c84eb0d69733165d2d4f10c659e7647a1e7a19859acacbf0120552164b8ff1a4ffef45a435aa37a4ff2f09e5b0bcf7
+  languageName: node
+  linkType: hard
+
+"csstype@npm:^2.6.10":
+  version: 2.6.19
+  resolution: "csstype@npm:2.6.19"
+  checksum: 72b51ddd30ba308d08373cd890e79526efdc19a9762941845040055f75353992f2d8d4cf4db282a8e1d3d9d2a39c989c65fe32b7b2655f08d313660c4048d2d6
   languageName: node
   linkType: hard
 
@@ -14049,6 +14085,13 @@ __metadata:
   version: 3.0.0
   resolution: "lodash._reinterpolate@npm:3.0.0"
   checksum: 06d2d5f33169604fa5e9f27b6067ed9fb85d51a84202a656901e5ffb63b426781a601508466f039c720af111b0c685d12f1a5c14ff8df5d5f27e491e562784b2
+  languageName: node
+  linkType: hard
+
+"lodash.camelcase@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "lodash.camelcase@npm:4.3.0"
+  checksum: cb9227612f71b83e42de93eccf1232feeb25e705bdb19ba26c04f91e885bfd3dd5c517c4a97137658190581d3493ea3973072ca010aab7e301046d90740393d1
   languageName: node
   linkType: hard
 

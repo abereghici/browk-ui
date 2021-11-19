@@ -1,5 +1,5 @@
 import * as theo from 'theo';
-import {resolve} from 'path';
+import {resolve} from 'node:path';
 import {es6TokenFormat} from '../es6';
 
 theo.registerFormat('es6.js', es6TokenFormat);
@@ -10,6 +10,7 @@ describe('es6Formatter', () => {
       .convert({
         transform: {
           type: 'web',
+          // eslint-disable-next-line unicorn/prefer-module
           file: resolve(__dirname, '../__fixtures__/index.yml'),
         },
         format: {
@@ -18,6 +19,7 @@ describe('es6Formatter', () => {
         },
       })
       .then((es6JS: string) => {
+        // eslint-disable-next-line jest/no-conditional-expect
         return expect(es6JS).toMatchSnapshot();
       })
       .catch((error: string) => {

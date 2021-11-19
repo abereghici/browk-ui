@@ -1,5 +1,5 @@
 import * as theo from 'theo';
-import {resolve} from 'path';
+import {resolve} from 'node:path';
 import {dTSTokenFormat} from '../d.ts';
 
 theo.registerFormat('d.ts', dTSTokenFormat);
@@ -10,6 +10,7 @@ describe('dTSFormatter', () => {
       .convert({
         transform: {
           type: 'web',
+          // eslint-disable-next-line unicorn/prefer-module
           file: resolve(__dirname, '../__fixtures__/index.yml'),
         },
         format: {
@@ -18,6 +19,7 @@ describe('dTSFormatter', () => {
         },
       })
       .then((dTS: string) => {
+        // eslint-disable-next-line jest/no-conditional-expect
         return expect(dTS).toMatchSnapshot();
       })
       .catch((error: string) => {

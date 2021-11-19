@@ -1,3 +1,5 @@
-import {DefaultTheme} from './default';
 
-export {DefaultTheme};
+
+
+
+export {DefaultTheme} from './default';

@@ -12,7 +12,8 @@
       "packages/browk-ui-nextjs-template",
       "packages/browk-ui-theme",
       "packages/browk-ui-types",
-      "packages/browk-ui-core/core-bundle"
+      "packages/browk-ui-core/core-bundle",
+      "packages/browk-ui-style-props"
     ]
   },
   "scripts": {
@@ -58,6 +59,7 @@
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
     "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@emotion/eslint-plugin": "^11.5.0",
     "@emotion/jest": "^11.5.0",
     "@expo/spawn-async": "^1.5.0",
     "@manypkg/cli": "^0.19.1",
@@ -86,7 +88,6 @@
     "eslint-config-airbnb-typescript": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-emotion": "^11.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jest": "^25.2.4",

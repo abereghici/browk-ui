@@ -11,9 +11,9 @@ interface GetFunc {
 export const get: GetFunc = (object, key, fallback) => {
   const keyAsArray = key && typeof key === 'string' ? key.split('.') : [key];
   let values: any = object;
-  keyAsArray.forEach((k) => {
+  for (const k of keyAsArray) {
     values = values ? values[k] : undefined;
-  });
+  }
   return values === undefined ? fallback : values;
 };
 
@@ -138,7 +138,7 @@ const positiveOrNegative = (scale: any, value: any): string | number => {
   return n * -1;
 };
 
-const transforms = [
+const transforms = Object.fromEntries([
   'margin',
   'marginTop',
   'marginRight',
@@ -150,13 +150,9 @@ const transforms = [
   'bottom',
   'left',
   'right',
-].reduce(
-  (acc, curr) => ({
-    ...acc,
-    [curr]: positiveOrNegative,
-  }),
-  {}
-);
+].map(
+  ( curr) => [curr, positiveOrNegative]
+));
 
 export const responsive = (styles: {[key: string]: any}) => (theme: JSON) => {
   const next: {[key: string]: any} = {};

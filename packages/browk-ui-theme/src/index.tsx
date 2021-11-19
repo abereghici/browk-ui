@@ -1,5 +1,5 @@
-import {ThemeProvider, StyledBase} from './themeProvider';
-import type {ThemeProviderProps} from './themeProvider';
+import {ThemeProvider } from './themeProvider';
+
 import {ThemeConsumer} from './themeConsumer';
 
 const Theme = {
@@ -10,8 +10,8 @@ const Theme = {
 export {browkBaseStyles} from './styles/base';
 export {browkGlobalStyles} from './styles/global';
 export {browkFonts} from './styles/fonts';
-export {StyledBase};
-export type {ThemeProviderProps};
+
+
 export type {ThemeShape} from './types/themes';
 export type {GenericThemeShape} from './types/GenericThemeShape';
 export {DefaultTheme} from './themes';
@@ -24,3 +24,5 @@ export {Theme};
 
 // utils
 export {remToPx} from './utils/remToPx';
+
+export {StyledBase, ThemeProviderProps} from './themeProvider';

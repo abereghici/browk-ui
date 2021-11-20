@@ -5,6 +5,8 @@ dist
 bin
 __testfixtures__
 
+.eslintrc.js
+
 .cache
 .next
 .yarn

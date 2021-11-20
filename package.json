@@ -13,7 +13,8 @@
       "packages/browk-ui-theme",
       "packages/browk-ui-types",
       "packages/browk-ui-core/core-bundle",
-      "packages/browk-ui-style-props"
+      "packages/browk-ui-style-props",
+      "packages/browk-ui-customization"
     ]
   },
   "scripts": {

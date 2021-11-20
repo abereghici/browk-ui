@@ -60,6 +60,8 @@ module.exports = {
     '@typescript-eslint/no-shadow': ['error', {ignoreFunctionTypeParameterNameValueShadow: true}],
     // Common abbreviations are known and readable
     'unicorn/prevent-abbreviations': 'off',
+    'unicorn/prefer-module': 'off',
+    'unicorn/prefer-node-protocol': 'warn',
     // We don't really have a style yet.  To be discussed
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/filename-case.md
     'unicorn/filename-case': 'off',

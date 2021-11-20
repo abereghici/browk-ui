@@ -4,6 +4,7 @@
   "packages": [
     "/packages/browk-ui-core/core-bundle",
     "/packages/browk-ui-libraries/animation",
+    "/packages/browk-ui-customization",
     "/packages/browk-ui-design-tokens",
     "/packages/browk-ui-style-props",
     "/packages/browk-ui-libraries/styling",

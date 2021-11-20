@@ -1,6 +1,7 @@
 # Automatically generated from "yarn generate-packages"
 /dist
 /animation-library
+/customization
 /design-tokens
 /style-props
 /styling-library

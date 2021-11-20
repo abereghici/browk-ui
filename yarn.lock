@@ -1795,6 +1795,7 @@ __metadata:
   resolution: "@browk-ui/core@workspace:packages/browk-ui-core/core-bundle"
   dependencies:
     "@browk-ui/animation-library": ^0.0.1
+    "@browk-ui/customization": ^0.0.1
     "@browk-ui/design-tokens": ^0.0.1
     "@browk-ui/style-props": ^0.0.1
     "@browk-ui/styling-library": ^0.0.1
@@ -1805,6 +1806,32 @@ __metadata:
     react-dom: ^17.0.2
   peerDependencies:
     prop-types: ^15.7.2
+    react: ^16.8.6 || ^17.0.2
+    react-dom: ^16.8.6 || ^17.0.2
+  languageName: unknown
+  linkType: soft
+
+"@browk-ui/customization@^0.0.1, @browk-ui/customization@workspace:packages/browk-ui-customization":
+  version: 0.0.0-use.local
+  resolution: "@browk-ui/customization@workspace:packages/browk-ui-customization"
+  dependencies:
+    "@browk-ui/animation-library": ^0.0.1
+    "@browk-ui/design-tokens": ^0.0.1
+    "@browk-ui/style-props": ^0.0.1
+    "@browk-ui/styling-library": ^0.0.1
+    "@browk-ui/theme": ^0.0.1
+    "@browk-ui/types": ^0.0.1
+    deepmerge: 4.2.2
+    lodash.merge: ^4.6.2
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  peerDependencies:
+    "@browk-ui/animation-library": ^0.0.1
+    "@browk-ui/design-tokens": ^0.0.1
+    "@browk-ui/style-props": ^0.0.1
+    "@browk-ui/styling-library": ^0.0.1
+    "@browk-ui/theme": ^0.0.1
+    "@browk-ui/types": ^0.0.1
     react: ^16.8.6 || ^17.0.2
     react-dom: ^16.8.6 || ^17.0.2
   languageName: unknown
@@ -6671,7 +6698,6 @@ __metadata:
     eslint-config-airbnb-typescript: ^15.0.0
     eslint-config-prettier: ^8.3.0
     eslint-plugin-cypress: ^2.12.1
-    eslint-plugin-emotion: ^11.0.0
     eslint-plugin-eslint-comments: ^3.2.0
     eslint-plugin-import: ^2.25.3
     eslint-plugin-jest: ^25.2.4
@@ -8544,7 +8570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:^4.2.2":
+"deepmerge@npm:4.2.2, deepmerge@npm:^4.2.2":
   version: 4.2.2
   resolution: "deepmerge@npm:4.2.2"
   checksum: a8c43a1ed8d6d1ed2b5bf569fa4c8eb9f0924034baf75d5d406e47e157a451075c4db353efea7b6bcc56ec48116a8ce72fccf867b6e078e7c561904b5897530b
@@ -9589,13 +9615,6 @@ __metadata:
   peerDependencies:
     eslint: ">= 3.2.1"
   checksum: 1f1c36e149304e9a6f58e2292a761abad58274da33b3a48b24ad55ad20cbce3ac7467321f2b6fcb052f9563c89f67004de4766eba2e2bdbcb010a6a0666989cf
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-emotion@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "eslint-plugin-emotion@npm:11.0.0"
-  checksum: 1c80a467e84d179b4567812f72196504357d8b807ccb277848528f77338afce0dd0df80f6999ba81b5e3f616e81a0592709f59ce1d98bf22048b7f654c286c52
   languageName: node
   linkType: hard
 

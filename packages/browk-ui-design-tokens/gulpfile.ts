@@ -8,7 +8,6 @@ import {dTSTokenFormat} from './formatters/d.ts';
 import {commonTokenFormat} from './formatters/common';
 
 // Browsersync isn't typed correctly so we import the old way
-// eslint-disable-next-line unicorn/prefer-module
 const browserSync = require('browser-sync');
 
 const paths = {

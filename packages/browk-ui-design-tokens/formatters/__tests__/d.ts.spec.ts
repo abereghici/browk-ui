@@ -1,5 +1,5 @@
 import * as theo from 'theo';
-import {resolve} from 'node:path';
+import {resolve} from 'path';
 import {dTSTokenFormat} from '../d.ts';
 
 theo.registerFormat('d.ts', dTSTokenFormat);
@@ -10,7 +10,6 @@ describe('dTSFormatter', () => {
       .convert({
         transform: {
           type: 'web',
-          // eslint-disable-next-line unicorn/prefer-module
           file: resolve(__dirname, '../__fixtures__/index.yml'),
         },
         format: {

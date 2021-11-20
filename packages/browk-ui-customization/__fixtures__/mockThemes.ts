@@ -10,7 +10,7 @@ export const mockTheme = {
     borderRadius0: '0',
     borderRadiusCircle: '50%',
   },
-  breakpoints: ['25rem', '64rem', '77rem'],
+  breakpoints: ['25rem', '64rem', '74rem'],
   colors: {
     colorGray90: 'rgb(31, 48, 76)',
   },

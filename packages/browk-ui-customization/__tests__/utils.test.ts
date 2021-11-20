@@ -7,7 +7,7 @@ describe('createCustomTheme', () => {
       shadows: {shadow: '0 4px 16px 0 rgba(18, 28, 45, 0.2)'},
       borderWidths: {borderWidth0: '0', borderWidth10: '1px'},
       radii: {borderRadius0: '0', borderRadiusCircle: '20rem'},
-      breakpoints: ['25rem', '64rem', '77rem'],
+      breakpoints: ['25rem', '64rem', '74rem'],
       colors: {colorGray90: 'rgb(31, 48, 76)'},
     });
   });
@@ -43,7 +43,7 @@ describe('createCustomTheme', () => {
       shadows: {shadow: '0 4px 16px 0 rgba(18, 28, 45, 0.2)'},
       borderWidths: {borderWidth0: '34px', borderWidth10: '1px'},
       radii: {borderRadius0: '0', borderRadiusCircle: '20%'},
-      breakpoints: ['25rem', '64rem', '77rem'],
+      breakpoints: ['25rem', '64rem', '74rem'],
       colors: {colorGray90: 'rgb(31, 48, 76)'},
     });
   });
@@ -86,7 +86,7 @@ describe('createCustomTheme', () => {
       shadows: {shadow: '0 4px 16px 0 rgba(18, 28, 45, 0.2)'},
       borderWidths: {borderWidth0: '0', borderWidth10: '1px'},
       radii: {borderRadius0: '0', borderRadiusCircle: '20rem'},
-      breakpoints: ['25rem', '64rem', '77rem'],
+      breakpoints: ['25rem', '64rem', '74rem'],
       colors: {colorGray90: 'rgb(31, 48, 76)'},
       elements: {
         CARD: {

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {render} from '@testing-library/react';
-import type { ThemeShape} from '../src';
+import type {ThemeShape} from '../src';
 import {Theme, withTheme} from '../src';
 
 const MockComponent = ({theme}: {theme: ThemeShape}): React.ReactElement => <p>{theme.textColors.colorText}</p>;

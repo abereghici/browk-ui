@@ -1,5 +1,1 @@
-
-
-
-
 export {DefaultTheme} from './default';

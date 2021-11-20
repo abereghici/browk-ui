@@ -1,7 +1,7 @@
 // Base styling system (emotion)
 
-
-export type {StyledComponent, default as styled} from '@emotion/styled';
+export type {StyledComponent} from '@emotion/styled';
+export {default as styled} from '@emotion/styled';
 export type {SerializedStyles} from '@emotion/react';
 export {
   ThemeContext,
@@ -11,7 +11,6 @@ export {
   Global as StylingGlobals,
   keyframes,
 } from '@emotion/react';
-
 
 // Custom styling application (styled-system)
 // https://github.com/styled-system/styled-system/tree/master/

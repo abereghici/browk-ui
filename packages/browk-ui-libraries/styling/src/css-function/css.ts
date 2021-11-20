@@ -138,21 +138,21 @@ const positiveOrNegative = (scale: any, value: any): string | number => {
   return n * -1;
 };
 
-const transforms = Object.fromEntries([
-  'margin',
-  'marginTop',
-  'marginRight',
-  'marginBottom',
-  'marginLeft',
-  'marginX',
-  'marginY',
-  'top',
-  'bottom',
-  'left',
-  'right',
-].map(
-  ( curr) => [curr, positiveOrNegative]
-));
+const transforms = Object.fromEntries(
+  [
+    'margin',
+    'marginTop',
+    'marginRight',
+    'marginBottom',
+    'marginLeft',
+    'marginX',
+    'marginY',
+    'top',
+    'bottom',
+    'left',
+    'right',
+  ].map((curr) => [curr, positiveOrNegative])
+);
 
 export const responsive = (styles: {[key: string]: any}) => (theme: JSON) => {
   const next: {[key: string]: any} = {};

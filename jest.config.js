@@ -1,9 +1,5 @@
-const TestTheme = require('./.jest/globals/TestTheme');
-
 module.exports = {
-  globals: {
-    TestTheme,
-  },
+  globals: {},
   verbose: true,
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
   testEnvironment: 'jsdom',

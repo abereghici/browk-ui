@@ -13,3 +13,5 @@ tsconfig.build.tsbuildinfo
 **/*.d.ts
 .codesandbox/ci.json
 build.icon-list.js
+
+tools/plop-templates

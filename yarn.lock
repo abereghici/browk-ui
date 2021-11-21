@@ -2441,9 +2441,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/jest@npm:^11.5.0":
-  version: 11.5.0
-  resolution: "@emotion/jest@npm:11.5.0"
+"@emotion/jest@npm:^11.6.0":
+  version: 11.6.0
+  resolution: "@emotion/jest@npm:11.6.0"
   dependencies:
     "@babel/runtime": ^7.13.10
     "@emotion/css-prettifier": ^1.0.0
@@ -2458,7 +2458,7 @@ __metadata:
       optional: true
     enzyme-to-json:
       optional: true
-  checksum: 1283d9b9262eb52d9eaa56bc44a59f297f1d8c22dbb58f45fec40204731c599e7524ca1192567566cefde28be8101c766e77b9a552b9bc7a72bf35728d10afd7
+  checksum: d512ecb7021105ecf80b05d59aa7a10a0e031b9a3ea1389e11f27e1844b63a3fc7402e827f52e5fe71174141aa74445f99255e856cf68e6a88b74c861e4227a9
   languageName: node
   linkType: hard
 
@@ -4718,6 +4718,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/jest-axe@npm:^3.5.3":
+  version: 3.5.3
+  resolution: "@types/jest-axe@npm:3.5.3"
+  dependencies:
+    "@types/jest": "*"
+    axe-core: ^3.5.5
+  checksum: 39a146d5e20e2bffcdafdbaebb0af24656774c2f4a99b720e170a16c49af74ec93efe040e58eec5ae840264fb1c60c09f7b768e18e6e77452f69dda0ce815d7d
+  languageName: node
+  linkType: hard
+
 "@types/jest@npm:*":
   version: 27.0.2
   resolution: "@types/jest@npm:27.0.2"
@@ -6204,6 +6214,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axe-core@npm:^3.5.5":
+  version: 3.5.6
+  resolution: "axe-core@npm:3.5.6"
+  checksum: 000777d2b6bf1f390beb1fb4b8714ed9127797c021c345b032db0c144e07320dbbe8cb0bcb7688b90b79cfbd3cdc1f27a4dc857804e3c61d7e0defb34deeb830
+  languageName: node
+  linkType: hard
+
 "axe-core@npm:^4.3.5":
   version: 4.3.5
   resolution: "axe-core@npm:4.3.5"
@@ -6670,7 +6687,7 @@ __metadata:
     "@commitlint/config-conventional": ^14.1.0
     "@emotion/babel-preset-css-prop": ^10.0.14
     "@emotion/eslint-plugin": ^11.5.0
-    "@emotion/jest": ^11.5.0
+    "@emotion/jest": ^11.6.0
     "@expo/spawn-async": ^1.5.0
     "@manypkg/cli": ^0.19.1
     "@testing-library/jest-dom": ^5.15.0
@@ -6681,6 +6698,7 @@ __metadata:
     "@types/gulp": ^4.0.9
     "@types/gulp-if": ^0.0.34
     "@types/gulp-terser": ^1.2.1
+    "@types/jest-axe": ^3.5.3
     "@types/lodash": latest
     "@types/theo": ^8.1.4
     "@typescript-eslint/eslint-plugin": ^5.3.1
@@ -6715,6 +6733,10 @@ __metadata:
     jest-axe: ^5.0.1
     lerna: ^4.0.0
     lodash: ^4.17.19
+    lodash.camelcase: ^4.3.0
+    lodash.difference: ^4.5.0
+    lodash.kebabcase: ^4.1.1
+    lodash.startcase: " ^4.4.0"
     plop: ^2.7.6
     precise-commits: ^1.0.2
     prettier: ^2.4.1
@@ -14121,6 +14143,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.difference@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.difference@npm:4.5.0"
+  checksum: ecee276aa578f300e79350805a14a51be8d1f12b3c1389a19996d8ab516f814211a5f65c68331571ecdad96522b863ccc484b55504ce8c9947212a29f8857d5a
+  languageName: node
+  linkType: hard
+
 "lodash.find@npm:^4.6.0":
   version: 4.6.0
   resolution: "lodash.find@npm:4.6.0"
@@ -14198,6 +14227,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.kebabcase@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.kebabcase@npm:4.1.1"
+  checksum: 5a6c59161914e1bae23438a298c7433e83d935e0f59853fa862e691164696bc07f6dfa4c313d499fbf41ba8d53314e9850416502376705a357d24ee6ca33af78
+  languageName: node
+  linkType: hard
+
 "lodash.keys@npm:^4.0.8":
   version: 4.2.0
   resolution: "lodash.keys@npm:4.2.0"
@@ -14247,7 +14283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.startcase@npm:^4.4.0":
+"lodash.startcase@npm: ^4.4.0, lodash.startcase@npm:^4.4.0":
   version: 4.4.0
   resolution: "lodash.startcase@npm:4.4.0"
   checksum: c03a4a784aca653845fe09d0ef67c902b6e49288dc45f542a4ab345a9c406a6dc194c774423fa313ee7b06283950301c1221dd2a1d8ecb2dac8dfbb9ed5606b5

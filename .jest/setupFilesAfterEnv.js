@@ -1,9 +1,10 @@
-require('@testing-library/jest-dom');
-const TestingLibrary = require('@testing-library/react');
-const {matchers: jestEmotionMatchers} = require('@emotion/jest');
-const {toHaveNoViolations} = require('jest-axe');
+import '@testing-library/jest-dom';
+import * as TestingLibrary from '@testing-library/react';
+
+import * as jestEmotion from '@emotion/jest';
+import {toHaveNoViolations} from 'jest-axe';
 
 expect.extend(toHaveNoViolations);
-expect.extend(jestEmotionMatchers);
+expect.extend(jestEmotion.matchers);
 
 TestingLibrary.configure({computedStyleSupportsPseudoElements: false});

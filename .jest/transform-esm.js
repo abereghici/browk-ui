@@ -13,7 +13,7 @@ const babelOptions = {
       '@emotion/babel-preset-css-prop',
       {
         sourceMap: false,
-        autoLabel: true,
+        autoLabel: 'always',
         labelFormat: '[local]',
         cssPropOptimization: false,
       },

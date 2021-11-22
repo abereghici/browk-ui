@@ -25,12 +25,12 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@emotion/react": "11.6.0",
-    "@emotion/styled": "11.6.0",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
     "@styled-system/css": "5.1.5",
     "@styled-system/theme-get": "5.1.2",
-    "@types/styled-system": "^5.1.9",
-    "@types/styled-system__css": "^5.0.5",
+    "@types/styled-system": "^5.1.13",
+    "@types/styled-system__css": "^5.0.16",
     "styled-system": "5.1.5"
   },
   "peerDependencies": {

@@ -23,7 +23,7 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@types/react": "17.0.34"
+    "@types/react": "^17.0.36"
   },
   "peerDependencies": {
     "react": "^16.8.6 || ^17.0.2"

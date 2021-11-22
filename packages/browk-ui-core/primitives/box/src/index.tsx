@@ -19,21 +19,16 @@ import {
   isDeprecatedTextColorTokenProp,
 } from '@browk-ui/style-props';
 import type {BoxProps, StyledBoxProps} from './types';
-import {getPseudoStyles, PasteStyleProps, getCustomElementStyles} from './StyleFunctions';
+import {getPseudoStyles, BrowkUIStyleProps, getCustomElementStyles} from './StyleFunctions';
 
-// @ts-ignore can't work out how to stop the styled div color prop from emotion clashing with our color style prop in BoxProps
 export const StyledBox = styled.div<StyledBoxProps>(
   {
     boxSizing: 'border-box',
   },
-  compose(space, layout, flexbox, background, border, boxShadow, position, typography, PasteStyleProps),
+  compose(space, layout, flexbox, background, border, boxShadow, position, typography, BrowkUIStyleProps),
   getPseudoStyles,
   getCustomElementStyles
-) as StyledComponent<
-  Omit<React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>, 'color'>,
-  BoxProps,
-  Record<string, unknown>
->;
+) as StyledComponent<Omit<React.HTMLAttributes<HTMLElement>, 'color'>, BoxProps>;
 
 const Box = React.forwardRef<HTMLElement, BoxProps>(({children, element = 'BOX', ...props}, ref) => {
   return (

@@ -25,10 +25,13 @@
   },
   "dependencies": {
     "@browk-ui/animation-library": "^0.0.1",
+    "@browk-ui/box": "^0.0.1",
     "@browk-ui/customization": "^0.0.1",
     "@browk-ui/design-tokens": "^0.0.1",
+    "@browk-ui/separator": "^0.0.1",
     "@browk-ui/style-props": "^0.0.1",
     "@browk-ui/styling-library": "^0.0.1",
+    "@browk-ui/text": "^0.0.1",
     "@browk-ui/theme": "^0.0.1",
     "@browk-ui/types": "^0.0.1"
   },

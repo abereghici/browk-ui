@@ -4,10 +4,13 @@
   "packages": [
     "/packages/browk-ui-core/core-bundle",
     "/packages/browk-ui-libraries/animation",
+    "/packages/browk-ui-core/primitives/box",
     "/packages/browk-ui-customization",
     "/packages/browk-ui-design-tokens",
+    "/packages/browk-ui-core/components/separator",
     "/packages/browk-ui-style-props",
     "/packages/browk-ui-libraries/styling",
+    "/packages/browk-ui-core/primitives/text",
     "/packages/browk-ui-theme",
     "/packages/browk-ui-types"
   ],

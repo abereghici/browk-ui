@@ -1,9 +1,12 @@
 # Automatically generated from "yarn generate-packages"
 /dist
 /animation-library
+/box
 /customization
 /design-tokens
+/separator
 /style-props
 /styling-library
+/text
 /theme
 /types

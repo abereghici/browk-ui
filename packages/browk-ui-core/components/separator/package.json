@@ -1,9 +1,9 @@
 {
-  "name": "@browk-ui/box",
+  "name": "@browk-ui/separator",
   "version": "0.0.1",
   "category": "layout",
   "status": "production",
-  "description": "A primitive component that can be used to create all block level styles in BrowkUI",
+  "description": "A Separator is a line that creates visual and semantic separation between UI elements or sections.",
   "author": "Alexandru Bereghici",
   "license": "MIT",
   "main:dev": "src/index.tsx",
@@ -24,13 +24,8 @@
     "clean": "rm -rf ./dist",
     "tsc": "tsc"
   },
-  "dependencies": {
-    "csstype": "^2.6.10",
-    "deepmerge": "4.2.2"
-  },
   "peerDependencies": {
-    "@browk-ui/animation-library": "^0.0.1",
-    "@browk-ui/customization": "^0.0.1",
+    "@browk-ui/box": "^0.0.1",
     "@browk-ui/design-tokens": "^0.0.1",
     "@browk-ui/style-props": "^0.0.1",
     "@browk-ui/styling-library": "^0.0.1",
@@ -41,8 +36,7 @@
     "react-dom": "^16.8.6 || ^17.0.2"
   },
   "devDependencies": {
-    "@browk-ui/animation-library": "^0.0.1",
-    "@browk-ui/customization": "^0.0.1",
+    "@browk-ui/box": "^0.0.1",
     "@browk-ui/design-tokens": "^0.0.1",
     "@browk-ui/style-props": "^0.0.1",
     "@browk-ui/styling-library": "^0.0.1",

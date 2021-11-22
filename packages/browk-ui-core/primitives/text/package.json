@@ -1,9 +1,9 @@
 {
-  "name": "@browk-ui/box",
+  "name": "@browk-ui/text",
   "version": "0.0.1",
-  "category": "layout",
+  "category": "typography",
   "status": "production",
-  "description": "A primitive component that can be used to create all block level styles in BrowkUI",
+  "description": "A primitive component that can be used to create all text styles in BrowkUI",
   "author": "Alexandru Bereghici",
   "license": "MIT",
   "main:dev": "src/index.tsx",

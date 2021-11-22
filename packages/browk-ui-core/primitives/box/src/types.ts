@@ -109,4 +109,7 @@ export interface BoxElementProps extends Omit<React.HTMLAttributes<HTMLElement>,
 
 export interface BoxProps extends BoxElementProps, BoxStyleProps {}
 
-export type StyledBoxProps = BoxProps & {'data-browk-ui-element': string; theme: CustomTheme};
+export interface StyledBoxProps extends BoxProps {
+  'data-browk-ui-element': string;
+  theme?: CustomTheme;
+}
